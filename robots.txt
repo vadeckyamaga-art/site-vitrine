@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /search
+
+Sitemap: https://sylviedjoyap.netlify.app/sitemap.xml
