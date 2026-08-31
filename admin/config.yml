@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "../asset/imgages/uploads"
-public_folder: "../asset/imges/uploads"
+media_folder: "asset/images/uploads"
+public_folder: "asset/images/uploads"
 
 locale: "fr"
 
@@ -11,7 +11,7 @@ collections:
   - name: "products"
     label: "Produits"
     files:
-      - file: "../asset/data/products.json"
+      - file: "asset/data/products.json"
         label: "Catalogue produits"
         name: "products"
         fields:

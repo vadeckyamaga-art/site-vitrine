@@ -6,7 +6,7 @@
       "brand": "Univers des Femmes",
       "price": 2500,
       "oldPrice": null,
-      "image": "../asset/images/4 en 1.jpeg",
+      "image": "asset/images/4 en 1.jpeg",
       "promotion": false,
       "bestseller": true
     },
@@ -16,7 +16,7 @@
       "brand": "O'dalyaCosmetic",
       "price": 5000,
       "oldPrice": null,
-      "image": "../asset/images/gommage.jpeg",
+      "image": "asset/images/gommage.jpeg",
       "promotion": false,
       "bestseller": true
     },
@@ -26,7 +26,7 @@
       "brand": "Univers des Femmes",
       "price": 1500,
       "oldPrice": null,
-      "image": "../asset/images/3 en 1.jpeg",
+      "image": "asset/images/3 en 1.jpeg",
       "promotion": false,
       "bestseller": true
     },
@@ -36,7 +36,7 @@
       "brand": "O'dalyaCosmetic",
       "price": 5000,
       "oldPrice": null,
-      "image": "../asset/images/lait.jpeg",
+      "image": "asset/images/lait.jpeg",
       "promotion": false,
       "bestseller": true
     },
@@ -46,7 +46,7 @@
       "brand": "Univers des Femmes",
       "price": 1000,
       "oldPrice": null,
-      "image": "../asset/images/cheveux.jpeg",
+      "image": "asset/images/cheveux.jpeg",
       "promotion": false,
       "bestseller": true
     },
@@ -56,7 +56,7 @@
       "brand": "O'dalyaCosmetic",
       "price": 5000,
       "oldPrice": 7500,
-      "image": "../asset/images/savon.jpeg",
+      "image": "asset/images/savon.jpeg",
       "promotion": true,
       "bestseller": false
     },
@@ -66,7 +66,7 @@
       "brand": "Univers des Femmes",
       "price": 2500,
       "oldPrice": 5000,
-      "image": "../asset/images/ensemble.jpeg",
+      "image": "asset/images/ensemble.jpeg",
       "promotion": true,
       "bestseller": false
     },
@@ -76,7 +76,7 @@
       "brand": "O'dalyaCosmetic",
       "price": 3000,
       "oldPrice": 5000,
-      "image": "../asset/images/baume.jpeg",
+      "image": "asset/images/baume.jpeg",
       "promotion": true,
       "bestseller": false
     },
@@ -86,7 +86,7 @@
       "brand": "Univers des Femmes",
       "price": 2000,
       "oldPrice": 5000,
-      "image": "../asset/images/pantalon.jpeg",
+      "image": "asset/images/pantalon.jpeg",
       "promotion": true,
       "bestseller": false
     },
@@ -96,7 +96,7 @@
       "brand": "O'dalyaCosmetic",
       "price": 5000,
       "oldPrice": 7500,
-      "image": "../asset/images/lait.jpeg",
+      "image": "asset/images/lait.jpeg",
       "promotion": true,
       "bestseller": false
     }

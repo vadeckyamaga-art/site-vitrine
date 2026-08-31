@@ -31,7 +31,7 @@ async function loadProducts() {
   const bestTrack = document.getElementById('track-best');
 
   try {
-    const res = await fetch('../asset/data/products.json');
+    const res = await fetch('asset/data/products.json');
     const data = await res.json();
     const products = data.products;
 
