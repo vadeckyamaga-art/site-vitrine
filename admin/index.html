@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+    <div data-include="../views/components/head.html"></div>
+        <title>Administration — O'dalyaCosmetic &amp; Univers des Femmes</title>
+    </head>
+    <body>
+        <!-- Netlify Identity : gère la connexion (e-mail / mot de passe) -->
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+        <!-- Decap CMS (ex Netlify CMS) -->
+        <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+        <script>
+            if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", (user) => {
+                    if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>

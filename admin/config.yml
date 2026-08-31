@@ -1,0 +1,54 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "../asset/imgages/uploads"
+public_folder: "../asset/imges/uploads"
+
+locale: "fr"
+
+collections:
+  - name: "products"
+    label: "Produits"
+    files:
+      - file: "../asset/data/products.json"
+        label: "Catalogue produits"
+        name: "products"
+        fields:
+          - label: "Produits"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.brand}}"
+            fields:
+              - label: "Identifiant unique"
+                name: "id"
+                widget: "string"
+                hint: "Sans espace ni accent, ex : odalya-savon-molato"
+              - label: "Nom du produit"
+                name: "name"
+                widget: "string"
+              - label: "Marque"
+                name: "brand"
+                widget: "select"
+                options: ["O'dalyaCosmetic", "Univers des Femmes"]
+              - label: "Prix actuel (FCFA)"
+                name: "price"
+                widget: "number"
+                value_type: "int"
+              - label: "Ancien prix (FCFA)"
+                name: "oldPrice"
+                widget: "number"
+                value_type: "int"
+                required: false
+                hint: "Laisser vide si le produit n'est pas en promotion"
+              - label: "Image du produit"
+                name: "image"
+                widget: "image"
+              - label: "En promotion ?"
+                name: "promotion"
+                widget: "boolean"
+                default: false
+              - label: "Meilleure vente ?"
+                name: "bestseller"
+                widget: "boolean"
+                default: false

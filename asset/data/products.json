@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": "udf-nuisette-04en01",
+      "name": "Nuisette 04 en 01",
+      "brand": "Univers des Femmes",
+      "price": 2500,
+      "oldPrice": null,
+      "image": "../asset/images/4 en 1.jpeg",
+      "promotion": false,
+      "bestseller": true
+    },
+    {
+      "id": "odalya-savon-molato",
+      "name": "Savon Molato",
+      "brand": "O'dalyaCosmetic",
+      "price": 5000,
+      "oldPrice": null,
+      "image": "../asset/images/gommage.jpeg",
+      "promotion": false,
+      "bestseller": true
+    },
+    {
+      "id": "udf-nuisette-03en01",
+      "name": "Nuisette 03 en 01",
+      "brand": "Univers des Femmes",
+      "price": 1500,
+      "oldPrice": null,
+      "image": "../asset/images/3 en 1.jpeg",
+      "promotion": false,
+      "bestseller": true
+    },
+    {
+      "id": "odalya-huile-reparatrice",
+      "name": "Huile Reparatrice",
+      "brand": "O'dalyaCosmetic",
+      "price": 5000,
+      "oldPrice": null,
+      "image": "../asset/images/lait.jpeg",
+      "promotion": false,
+      "bestseller": true
+    },
+    {
+      "id": "udf-huile-de-cheveux",
+      "name": "Huile de Cheveux",
+      "brand": "Univers des Femmes",
+      "price": 1000,
+      "oldPrice": null,
+      "image": "../asset/images/cheveux.jpeg",
+      "promotion": false,
+      "bestseller": true
+    },
+    {
+      "id": "odalya-savon-eclat-nature",
+      "name": "Savon éclat Nature",
+      "brand": "O'dalyaCosmetic",
+      "price": 5000,
+      "oldPrice": 7500,
+      "image": "../asset/images/savon.jpeg",
+      "promotion": true,
+      "bestseller": false
+    },
+    {
+      "id": "udf-ensemble-culotte",
+      "name": "Ensemble culotte & Haut",
+      "brand": "Univers des Femmes",
+      "price": 2500,
+      "oldPrice": 5000,
+      "image": "../asset/images/ensemble.jpeg",
+      "promotion": true,
+      "bestseller": false
+    },
+    {
+      "id": "odalya-baume-gommage",
+      "name": "Baume & Gommage à Lèvres",
+      "brand": "O'dalyaCosmetic",
+      "price": 3000,
+      "oldPrice": 5000,
+      "image": "../asset/images/baume.jpeg",
+      "promotion": true,
+      "bestseller": false
+    },
+    {
+      "id": "udf-nuisette-03en01-pantalon",
+      "name": "Nuisette 03 en 01 avec Pantalon",
+      "brand": "Univers des Femmes",
+      "price": 2000,
+      "oldPrice": 5000,
+      "image": "../asset/images/pantalon.jpeg",
+      "promotion": true,
+      "bestseller": false
+    },
+    {
+      "id": "odalya-lait-eclaircissant",
+      "name": "Lait éclairçissant",
+      "brand": "O'dalyaCosmetic",
+      "price": 5000,
+      "oldPrice": 7500,
+      "image": "../asset/images/lait.jpeg",
+      "promotion": true,
+      "bestseller": false
+    }
+  ]
+}
